@@ -70,3 +70,45 @@ h3 {
 .btn:hover {
     background-color: #276749;
 }
+
+/* ===== 3. HEADER ===== */
+
+.site-header {
+    padding: 16px 0;
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo:hover {
+    text-decoration: underline;
+}
+
+.nav-links {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links a {
+    color: #2D3748;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #2F855A;
+    text-decoration: underline;
+}
