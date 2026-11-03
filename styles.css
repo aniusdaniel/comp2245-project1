@@ -140,3 +140,37 @@ h3 {
     width: 100%;
     height: auto;
 }
+
+/* ===== 5. FEATURES SECTION ===== */
+
+.features h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 48px;
+}
+
+.feature-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.feature {
+    background-color: #F7FAFC;
+    border-radius: 12px;
+    padding: 32px;
+}
+
+.feature img {
+    width: 64px;
+    height: 64px;
+}
+
+.feature h3 {
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+
+.feature p {
+    margin-bottom: 0;
+}
