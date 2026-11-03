@@ -112,3 +112,31 @@ h3 {
     color: #2F855A;
     text-decoration: underline;
 }
+
+/* ===== 4. HERO SECTION ===== */
+
+.hero {
+    background-color: #F0FFF4;
+}
+
+.hero .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: center;
+}
+
+.hero-text h1 {
+    margin-top: 0;
+}
+
+.hero-text p {
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.hero-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
