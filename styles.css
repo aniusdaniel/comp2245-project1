@@ -174,3 +174,67 @@ h3 {
 .feature p {
     margin-bottom: 0;
 }
+
+/* ===== 6. VISIT SECTION ===== */
+
+.visit {
+    background-color: #F0FFF4;
+}
+
+.visit .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: center;
+}
+
+.visit h2 {
+    margin-top: 0;
+}
+
+/* Opening hours table */
+
+.hours {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.hours caption {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.hours th,
+.hours td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid #C6F6D5;
+}
+
+.hours thead {
+    background-color: #2F855A;
+    color: #FFFFFF;
+}
+
+/* ===== 7. TESTIMONIAL ===== */
+
+.testimonial {
+    margin: 0;
+    padding: 32px;
+    background-color: #FFFFFF;
+    border-left: 6px solid #2F855A;
+    border-radius: 0 12px 12px 0;
+}
+
+.testimonial p {
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.testimonial footer {
+    color: #4A5568;
+    font-size: 16px;
+    font-style: normal;
+}
